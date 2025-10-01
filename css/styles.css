@@ -95,6 +95,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .nav-link.current{
 position: relative;
+transition:  250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-link.current::after{
@@ -171,6 +172,7 @@ color: #ffffff;
 background-color: #4d5ae5;
 margin: 0 auto;
 transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -184,7 +186,7 @@ background-image: linear-gradient(
 rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)
 ),
 url("../images/people-office.jpg");
-max-width: 1200px;
+/* max-width: 1200px; */
 margin: 0 auto;
 background-repeat: no-repeat;
 background-size: cover;
@@ -386,6 +388,7 @@ width: calc((100% - 48px) / 3);
 border-radius: 0px 0px 4px 4px;    
 background-color: #ffffff;
 transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .conteiner-third{
@@ -415,10 +418,12 @@ transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: -1px;
     border: 1px solid #e7e9fc;
     border-bottom: none;
+    position: relative;
     }
 
 .paragraf-over{
- position: absolute;
+    transform: translateY(100%);
+    position: absolute;
     top: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
