@@ -485,7 +485,12 @@ margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    height: 100%;
+    width: 100%;
 }
+.footer-title:hover{
+transform: translateY(0%);
+} 
 
 .stars-list{
     display: flex;
