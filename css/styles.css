@@ -393,6 +393,11 @@ transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
+.third-section-item:hover .paragraf-over{
+    transform: translateY(0%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+}
+
 .conteiner-third{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -445,7 +450,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 100%;
     width: 100%;
-    
+
 }
 
 /* footer */
@@ -522,6 +527,7 @@ transform: translateY(0%);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
