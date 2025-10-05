@@ -481,6 +481,10 @@ display: inline-block;
     color: #f4f4fd;
 }
 
+.stars-list{
+    gap: 16px;
+}
+
 .footer-logo{
 display: inline-block;
 margin-bottom: 16px;
