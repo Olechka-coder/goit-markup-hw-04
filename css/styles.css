@@ -336,7 +336,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .link.hover,
 .link:focus{
     background-color: #404bbf;
-}
+    }
 
 /* .icon-container{
     display: flex;
